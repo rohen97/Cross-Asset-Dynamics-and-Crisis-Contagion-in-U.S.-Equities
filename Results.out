@@ -1,0 +1,35 @@
+
+Ox 9.30 (Windows_64/Parallel) (C) J.A. Doornik, 1994-2024 (oxlang.dev)
+
+---- Garch - PcGive 2.8 session started at 20:47:59 on 25-03-2025 ----
+
+VOL( 1) Modelling Returns_daily by restricted GARCH(1,1)
+        The dataset is: C:\Users\Rohen\OneDrive\Postgraduate University Notes SMU\Econometrics Bayes\JPMUS_5min_dataset_Q5v2.xlsx
+        The estimation sample is: 1 - 166
+
+                  Coefficient  Std.Error  robust-SE  t-value  t-prob
+Constant      X   0.000894836  0.0007851  0.0007721     1.16   0.248
+alpha_0       H   4.19861e-05  2.127e-05  2.155e-05     1.95   0.053
+alpha_1       H      0.243783     0.1187     0.1410     1.73   0.086
+beta_1        H      0.441711     0.2110     0.1563     2.83   0.005
+
+log-likelihood     515.309208  HMSE                  4.35775
+mean(h_t)         0.000131499  var(h_t)          7.62473e-09
+no. of observations       166  no. of parameters           4
+AIC.T             -1022.61842  AIC               -6.16035191
+mean(Returns_daily)  0.000557271  var(Returns_daily)   0.00012771
+alpha(1)+beta(1)     0.685494  alpha_i+beta_i>=0, alpha(1)+beta(1)<1 
+
+Initial terms of alpha(L)/[1-beta(L)]:
+      0.24378      0.10768     0.047564     0.021010    0.0092802    0.0040992    0.0018106   0.00079978   0.00035327   0.00015604   6.8926e-05   3.0446e-05
+
+Used sample mean of squared residuals to start recursion
+Robust-SE based on analytical Information matrix and analytical OPG matrix
+BFGS using analytical derivatives (eps1=0.0001; eps2=0.005):
+Strong convergence
+Used starting values:
+   0.00055727   1.7910e-05      0.78259     0.077169
+
+Data Plot saved to C:\Users\Rohen\Downloads\Data Plot.pdf
+Data Plot saved to C:\Users\Rohen\Downloads\Data Plot.pdf.gwg
+
